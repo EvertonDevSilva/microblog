@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT microblog.py:app
+web: gunicorn app:app" > Procfile
